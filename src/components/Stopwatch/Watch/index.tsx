@@ -3,8 +3,7 @@ import style from './watch.module.scss';
 interface Props {
     time: number | undefined
 }
-
-export function Watch({ time = 0 }: Props) {
+export function Watch({ time = 0}: Props) {
     const min =  Math.floor(time / 60)
     const sec = time % 60
     const [minDez, minUn] = String(min).padStart(2, '0')

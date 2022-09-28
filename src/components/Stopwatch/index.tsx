@@ -10,7 +10,7 @@ interface Props {
     finishTask: () => void
 }
 export function Stopwatch({selected, finishTask}: Props) {
-    const [time, setTime] = useState<number>(timeInSeconds(String(selected?.time)))
+    const [time, setTime] =  useState<number>();
 
     useEffect(() => {
         if(selected?.time){
