@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Task Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi criado com o curso de React com TypeScript da Alura.
+
+## Tecnologias usadas:
+
+- O projeto foi desenvolvido utilizando: 
+    - NodeJS (versão 18.7.0);
+    - NPM (versão 8.15.0);
+    - JavaScript (ES6);
+    - React (18.2.0);
+    - Typescript (4.8.3) 
+    - SCSS
 
 ## Available Scripts
 
