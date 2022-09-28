@@ -40,7 +40,7 @@ const Form = ({ setTaskList}: Props) => {
                  id="task" 
                  value={desc} 
                  onChange={(e) => setDesc(e.target.value)}
-                 placeholder="What do you want to study?" 
+                 placeholder="What do you want to do?" 
                  required
                 />
             </div>
